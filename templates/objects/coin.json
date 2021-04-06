@@ -1,0 +1,12 @@
+{ "object":
+    {
+     "height":70,
+     "id":1,
+     "name":"coin",
+     "rotation":0,
+     "type":"coin",
+     "visible":true,
+     "width":70
+    },
+ "type":"template"
+}

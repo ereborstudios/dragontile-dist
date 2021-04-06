@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="coin" color="#fce94f">
+  <property name="value" type="int" default="10"/>
+ </objecttype>
+</objecttypes>

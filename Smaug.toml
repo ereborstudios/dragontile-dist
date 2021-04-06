@@ -1,0 +1,62 @@
+[package]
+name = "dragontile"
+author = "Logan Koester <logan@logankoester.com>"
+version = "0.1.0"
+url = "https://smaug.dev/dragontile"
+
+# Which files do you want to be automatically required from your package.
+# requires = ["lib/library.rb"]
+
+requires = [
+  "smaug/dragontile/lib/ostruct.rb",
+  "smaug/dragontile/lib/singleton.rb",
+  "smaug/dragontile/lib/license.rb",
+  "smaug/dragontile/lib/camera.rb",
+  "smaug/dragontile/lib/game.rb",
+  "smaug/dragontile/lib/tile_set.rb",
+  "smaug/dragontile/lib/map.rb",
+  "smaug/dragontile/lib/tile.rb",
+  "smaug/dragontile/lib/layer.rb",
+  "smaug/dragontile/lib/exceptions.rb",
+  "smaug/dragontile/lib/base_object.rb",
+  "smaug/dragontile/lib/draco/entity.rb",
+  "smaug/dragontile/lib/dragontile.rb",
+  "app/components/dragontile/index.rb",
+  "app/entities/dragontile/index.rb",
+  "app/systems/dragontile/index.rb",
+  "app/worlds/dragontile/index.rb",
+]
+
+[package.installs]
+# Example
+#
+# <from> = <to>
+# "lib/library.rb" = "app/lib/library.rb"
+
+"templates/maps/empty.json" = "maps/empty.json"
+"templates/project.tiled-project" = "project.tiled-project"
+"templates/extensions/insertPlayer.js" = "extensions/insertPlayer.js"
+"templates/extensions/insertPlayer.svg" = "extensions/insertPlayer.svg"
+"templates/extensions/runGame.js" = "extensions/runGame.js"
+"templates/objects/coin.json" = "objects/coin.json"
+"templates/objects/collision.json" = "objects/collision.json"
+"templates/objects/objecttypes.xml" = "objects/objecttypes.xml"
+
+"templates/app/components/map_file.rb" = "app/components/dragontile/map_file.rb"
+"templates/app/components/map_object.rb" = "app/components/dragontile/map_object.rb"
+"templates/app/components/index.rb" = "app/components/dragontile/index.rb"
+
+"templates/app/entities/map.rb" = "app/entities/dragontile/map.rb"
+"templates/app/entities/index.rb" = "app/entities/dragontile/index.rb"
+
+"templates/app/systems/load_maps.rb" = "app/systems/dragontile/load_maps.rb"
+"templates/app/systems/reload_maps.rb" = "app/systems/dragontile/reload_maps.rb"
+"templates/app/systems/render_maps.rb" = "app/systems/dragontile/render_maps.rb"
+"templates/app/systems/index.rb" = "app/systems/dragontile/index.rb"
+
+"templates/app/worlds/world.rb" = "app/worlds/dragontile/world.rb"
+"templates/app/worlds/index.rb" = "app/worlds/dragontile/index.rb"
+
+[dragonruby]
+version = "2.7"
+edition = "pro"

@@ -1,0 +1,22 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+        {
+            "arguments": "",
+            "command": "smaug run",
+            "enabled": true,
+            "name": "run",
+            "saveBeforeExecute": true,
+            "shortcut": "F5",
+            "showOutput": true,
+            "workingDirectory": "%mappath/.."
+        }
+    ],
+    "extensionsPath": "extensions",
+    "folders": [
+        "maps",
+        "objects",
+        "sprites"
+    ],
+    "objectTypesFile": "objects/objecttypes.xml"
+}

@@ -1,0 +1,12 @@
+{ "object":
+    {
+     "height":70,
+     "id":3,
+     "name":"collision",
+     "rotation":0,
+     "type":"collision",
+     "visible":true,
+     "width":70
+    },
+ "type":"template"
+}
