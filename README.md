@@ -71,7 +71,7 @@ $ smaug add dragontile
 $ smaug install
 ```
 
-You will need to obtain a license key from https://smaug.dev/packages/dragontiled/licenses/new and configure it for Dragontile.
+You will need to obtain a license key from https://smaug.dev/packages/dragontile/licenses/new and configure it for Dragontile.
 
 
 ```ruby
